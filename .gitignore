@@ -1,0 +1,5 @@
+.idea
+DesignPatters.Proj/bin
+DesignPatters.Proj/obj
+*.xml
+*.cache

@@ -1,9 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df2320a5-facd-4ddf-8b70-64f250bd91d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatters.Proj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/AbstractFactoryController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IChair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IProduct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ISofa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ITable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ProductFamily.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ArtDecoFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ModernFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/VictorianFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/IAbstractFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoChair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoSofa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernChair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernSofa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianChair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianSofa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Services/Contracts/IProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Services/ProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Utils/ProductUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatters.Proj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatters.Proj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/obj/Debug/netcoreapp3.1/DesignPatters.Proj.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/obj/Debug/netcoreapp3.1/DesignPatters.Proj.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/77397722-6251-4049-A372-77EE78C5EE72/ff/354de6b3/LogLevel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Services/Contracts/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ProductFamily.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Controllers/AbstractFactoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/VictorianFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F3325C05-7891-45B4-AC78-327FC18BDC7C/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ModernFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ArtDecoFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianSofa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F2ACE85F-6C10-49DB-8CAC-F03079CCDA72/8/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianChair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Utils/ProductUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernSofa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernChair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoSofa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoChair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ITable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ISofa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF25C7DF-1FC7-4944-A452-9762F33B48C0/2c/117ebb6e/IServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IChair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CCD71D5C-6409-42FE-B7D4-84249D40542B/1/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/IAbstractFactory.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory/Contracts/ITable.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory/Contracts/ISofa.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory/Contracts/IChair.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/AbstractFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IChair.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ISofa.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ITable.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ProductStyle.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/Product.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ProductCategory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Controllers/WeatherForecastController.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Services/Contracts/IProductService.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Startup.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/IAbstractFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Services/Contracts/ProductService.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Services/ProductService.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IProduct.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoChair.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoSofa.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoTable.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernChair.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernSofa.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernTable.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianChair.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianSofa.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianTable.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/ExtensionMethods/ProductExtensionMethods.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Utils/ProductUtils.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ArtDecoFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ModernFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/VictorianFactory.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Controllers/AbstractFactoryController.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1mcDYt9IDhG3T81cEM5FwufK6eK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DesignPatters.Proj">
@@ -37,5 +163,120 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df2320a5-facd-4ddf-8b70-64f250bd91d5" name="Default Changelist" comment="" />
+      <created>1609784037307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609784037307</updated>
+      <workItem from="1609784039500" duration="5028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="853" height="466" key="DebuggerActiveHint" timestamp="1609788002530">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="853" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1609788002530" />
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.2.bottom" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.2.center" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.2.left" timestamp="1609789071837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071837" />
+    <state width="2517" height="492" key="GridCell.Tab.2.right" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.3.bottom" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.3.center" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.3.left" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.3.right" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.4.bottom" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.4.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.4.center" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.4.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.4.left" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.4.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state width="2517" height="492" key="GridCell.Tab.4.right" timestamp="1609789071838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.4.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609789071838" />
+    <state x="1114" y="400" key="RiderGenerateDialog" timestamp="1609788415475">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="400" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1609788415475" />
   </component>
 </project>

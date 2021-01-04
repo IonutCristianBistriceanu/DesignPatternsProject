@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\DesignPatters.Proj" t="IncludeFlat">
+      <e p="DesignPatters.Proj" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AbstractFactoryController.cs" t="Include" />
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="DesignPatters.Proj.csproj" t="IncludeRecursive" />
+        <e p="Examples" t="Include">
+          <e p="AbstractFactory" t="Include">
+            <e p="Contracts" t="Include">
+              <e p="IChair.cs" t="Include" />
+              <e p="IProduct.cs" t="Include" />
+              <e p="ISofa.cs" t="Include" />
+              <e p="ITable.cs" t="Include" />
+              <e p="Product.cs" t="Include" />
+              <e p="ProductFamily.cs" t="Include" />
+            </e>
+            <e p="Factories" t="Include">
+              <e p="ArtDecoFactory.cs" t="Include" />
+              <e p="ModernFactory.cs" t="Include" />
+              <e p="VictorianFactory.cs" t="Include" />
+            </e>
+            <e p="IAbstractFactory.cs" t="Include" />
+            <e p="Models" t="Include">
+              <e p="ArtDeco" t="Include">
+                <e p="ArtDecoChair.cs" t="Include" />
+                <e p="ArtDecoSofa.cs" t="Include" />
+                <e p="ArtDecoTable.cs" t="Include" />
+              </e>
+              <e p="Modern" t="Include">
+                <e p="ModernChair.cs" t="Include" />
+                <e p="ModernSofa.cs" t="Include" />
+                <e p="ModernTable.cs" t="Include" />
+              </e>
+              <e p="Victorian" t="Include">
+                <e p="VictorianChair.cs" t="Include" />
+                <e p="VictorianSofa.cs" t="Include" />
+                <e p="VictorianTable.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DesignPatters.Proj.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Contracts" t="Include">
+            <e p="IProductService.cs" t="Include" />
+          </e>
+          <e p="ProductService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="ProductUtils.cs" t="Include" />
+        </e>
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="DesignPatters.Proj.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\bistr\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\bistr\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\bistr\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DesignPatters.Proj.-1896813101.00" t="ExcludeRecursive" />
+  </component>
+</project>

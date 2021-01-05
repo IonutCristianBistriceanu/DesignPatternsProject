@@ -8,6 +8,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AbstractFactoryController.cs" t="Include" />
+          <e p="FactoryMethodController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="DesignPatters.Proj.csproj" t="IncludeRecursive" />
@@ -44,6 +45,16 @@
                 <e p="VictorianTable.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="FactoryMethod" t="Include">
+            <e p="ITransport.cs" t="Include" />
+            <e p="Logistics.cs" t="Include" />
+            <e p="MachineModels" t="Include">
+              <e p="Ship.cs" t="Include" />
+              <e p="Truck.cs" t="Include" />
+            </e>
+            <e p="RoadLogistics.cs" t="Include" />
+            <e p="SeaLogistics.cs" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">

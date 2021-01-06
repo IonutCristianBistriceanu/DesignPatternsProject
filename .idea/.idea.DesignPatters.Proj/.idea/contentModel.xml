@@ -8,8 +8,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AbstractFactoryController.cs" t="Include" />
+          <e p="BuilderController.cs" t="Include" />
           <e p="FactoryMethodController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="DesignPatters.Proj.csproj" t="IncludeRecursive" />
         <e p="Examples" t="Include">
@@ -43,6 +43,29 @@
                 <e p="VictorianChair.cs" t="Include" />
                 <e p="VictorianSofa.cs" t="Include" />
                 <e p="VictorianTable.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Builder" t="Include">
+            <e p="Builders" t="Include">
+              <e p="CarBuilder.cs" t="Include" />
+              <e p="CarManualBuilder.cs" t="Include" />
+            </e>
+            <e p="Contracts" t="Include">
+              <e p="IBuilder.cs" t="Include" />
+              <e p="IEngine.cs" t="Include" />
+            </e>
+            <e p="Directors" t="Include">
+              <e p="Director.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="Car.cs" t="Include" />
+              <e p="CarManual.cs" t="Include" />
+            </e>
+            <e p="Parts" t="Include">
+              <e p="Engine" t="Include">
+                <e p="DieselEngine.cs" t="Include" />
+                <e p="SportEngine.cs" t="Include" />
               </e>
             </e>
           </e>

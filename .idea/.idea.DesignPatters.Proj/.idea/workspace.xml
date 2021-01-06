@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df2320a5-facd-4ddf-8b70-64f250bd91d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/FactoryMethodController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/ITransport.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/Logistics.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Ship.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Truck.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/RoadLogistics.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/SeaLogistics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/BuilderController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Builders/CarBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Builders/CarManualBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Contracts/IBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Contracts/IEngine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Directors/Director.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Models/Car.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Models/CarManual.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Parts/Engine/DieselEngine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Parts/Engine/SportEngine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatters.Proj/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatters.Proj/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatters.Proj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatters.Proj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/AbstractFactoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/AbstractFactoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/FactoryMethodController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/FactoryMethodController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/bin/Debug/netcoreapp3.1/DesignPatters.Proj.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/bin/Debug/netcoreapp3.1/DesignPatters.Proj.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/bin/Debug/netcoreapp3.1/DesignPatters.Proj.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/bin/Debug/netcoreapp3.1/DesignPatters.Proj.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPatters.Proj/obj/Debug/netcoreapp3.1/DesignPatters.Proj.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatters.Proj/obj/Debug/netcoreapp3.1/DesignPatters.Proj.dll" afterDir="false" />
@@ -25,7 +31,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/77397722-6251-4049-A372-77EE78C5EE72/ff/354de6b3/LogLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,35 +48,42 @@
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ArtDecoFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianSofa.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F2ACE85F-6C10-49DB-8CAC-F03079CCDA72/8/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Victorian/VictorianChair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernTable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Controllers/FactoryMethodController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Utils/ProductUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernSofa.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/Modern/ModernChair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoSofa.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Ship.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Truck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Controllers/BuilderController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Models/ArtDeco/ArtDecoChair.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/ITransport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Directors/Director.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ITable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/ISofa.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF25C7DF-1FC7-4944-A452-9762F33B48C0/2c/117ebb6e/IServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IChair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Builders/CarManualBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CCD71D5C-6409-42FE-B7D4-84249D40542B/1/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Builders/CarBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/IAbstractFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Parts/Engine/DieselEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Parts/Engine/SportEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Contracts/IEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Contracts/IBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Models/CarManual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Models/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F2ACE85F-6C10-49DB-8CAC-F03079CCDA72/8/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Controllers/FactoryMethodController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Utils/ProductUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Ship.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Truck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/ITransport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/RoadLogistics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/SeaLogistics.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CCD71D5C-6409-42FE-B7D4-84249D40542B/1/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/Logistics.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/IAbstractFactory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory.cs" />
-        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory/Contracts/ITable.cs" />
-        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory/Contracts/ISofa.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Creational/AbstractFactory/Contracts/IChair.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/AbstractFactory.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Contracts/IChair.cs" />
@@ -100,7 +112,6 @@
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ArtDecoFactory.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/ModernFactory.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/AbstractFactory/Factories/VictorianFactory.cs" />
-        <option value="$PROJECT_DIR$/DesignPatters.Proj/Controllers/AbstractFactoryController.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Services/ProductService.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/ClasaAsta.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/SeaLogistics.cs" />
@@ -110,7 +121,20 @@
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Truck.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/MachineModels/Ship.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/FactoryMethod/Logistics.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Models/Manual.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Contracts/IBuilder.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Builders/CarBuilder.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Directors/CarDirector.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Controllers/AbstractFactoryController.cs" />
         <option value="$PROJECT_DIR$/DesignPatters.Proj/Controllers/FactoryMethodController.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Directors/Director.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Contracts/IEngine.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Parts/Engine/DieselEngine.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Parts/Engine/SportEngine.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Models/Car.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Controllers/BuilderController.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Builders/CarManualBuilder.cs" />
+        <option value="$PROJECT_DIR$/DesignPatters.Proj/Examples/Builder/Models/CarManual.cs" />
       </list>
     </option>
   </component>
@@ -173,6 +197,7 @@
       <updated>1609784037307</updated>
       <workItem from="1609784039500" duration="5774000" />
       <workItem from="1609867294570" duration="2597000" />
+      <workItem from="1609960208648" duration="2907000" />
     </task>
     <servers />
   </component>
@@ -197,90 +222,90 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="853" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1609788002530" />
-    <state width="2517" height="408" key="GridCell.Tab.0.bottom" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.0.bottom" timestamp="1609963159054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.0.center" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609963159054" />
+    <state width="2517" height="408" key="GridCell.Tab.0.center" timestamp="1609963159054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.0.left" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609963159054" />
+    <state width="2517" height="408" key="GridCell.Tab.0.left" timestamp="1609963159054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.0.right" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609963159054" />
+    <state width="2517" height="408" key="GridCell.Tab.0.right" timestamp="1609963159054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.1.bottom" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609963159054" />
+    <state width="2517" height="408" key="GridCell.Tab.1.bottom" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.1.center" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.1.center" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.1.left" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.1.left" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.1.right" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.1.right" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.2.bottom" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.2.bottom" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.2.center" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.2.center" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.2.left" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.2.left" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.2.right" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.2.right" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.3.bottom" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.3.bottom" timestamp="1609963158994">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.3.center" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158994" />
+    <state width="2517" height="408" key="GridCell.Tab.3.center" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.3.left" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.3.left" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.3.right" timestamp="1609869892482">
+    <state width="2517" height="408" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.3.right" timestamp="1609963158993">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892482" />
-    <state width="2517" height="408" key="GridCell.Tab.4.bottom" timestamp="1609869892483">
+    <state width="2517" height="408" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158993" />
+    <state width="2517" height="408" key="GridCell.Tab.4.bottom" timestamp="1609963158994">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.4.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892483" />
-    <state width="2517" height="408" key="GridCell.Tab.4.center" timestamp="1609869892483">
+    <state width="2517" height="408" key="GridCell.Tab.4.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158994" />
+    <state width="2517" height="408" key="GridCell.Tab.4.center" timestamp="1609963158994">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.4.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892483" />
-    <state width="2517" height="408" key="GridCell.Tab.4.left" timestamp="1609869892483">
+    <state width="2517" height="408" key="GridCell.Tab.4.center/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158994" />
+    <state width="2517" height="408" key="GridCell.Tab.4.left" timestamp="1609963158994">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.4.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892483" />
-    <state width="2517" height="408" key="GridCell.Tab.4.right" timestamp="1609869892483">
+    <state width="2517" height="408" key="GridCell.Tab.4.left/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158994" />
+    <state width="2517" height="408" key="GridCell.Tab.4.right" timestamp="1609963158994">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="408" key="GridCell.Tab.4.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609869892483" />
-    <state x="1114" y="400" key="RiderGenerateDialog" timestamp="1609788415475">
+    <state width="2517" height="408" key="GridCell.Tab.4.right/0.0.2560.1400@0.0.2560.1400" timestamp="1609963158994" />
+    <state x="1114" y="400" key="RiderGenerateDialog" timestamp="1609961615685">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1114" y="400" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1609788415475" />
+    <state x="1114" y="400" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1609961615685" />
     <state x="1070" y="404" key="VCS.ChangeListViewerDialog" timestamp="1609867339164">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

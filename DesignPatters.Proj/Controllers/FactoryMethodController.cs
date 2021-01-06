@@ -8,9 +8,9 @@ namespace DesignPatters.Proj.Controllers
     [Route("[controller]")]
     public class FactoryMethodController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<FactoryMethodController> _logger;
 
-        public FactoryMethodController(ILogger<WeatherForecastController> logger)
+        public FactoryMethodController(ILogger<FactoryMethodController> logger)
         {
             _logger = logger;
         }
@@ -20,6 +20,7 @@ namespace DesignPatters.Proj.Controllers
         public string DeliverByLand()
         {
             var logistics = new RoadLogistics();
+            _logger.Log(LogLevel.Information, "Road logistics initiated.");
             return logistics.DeliverTransport();
         }
 
@@ -28,6 +29,7 @@ namespace DesignPatters.Proj.Controllers
         public string DeliverBySea()
         {
             var logistics = new SeaLogistics();
+            _logger.Log(LogLevel.Information, "Sea logistics initiated.");
             return logistics.DeliverTransport();
         }
     }

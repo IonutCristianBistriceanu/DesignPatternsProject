@@ -10,10 +10,10 @@ namespace DesignPatters.Proj.Controllers
     [Route("[controller]")]
     public class AbstractFactoryController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<AbstractFactoryController> _logger;
         private readonly IProductService _productService;
 
-        public AbstractFactoryController(ILogger<WeatherForecastController> logger, IProductService productService)
+        public AbstractFactoryController(ILogger<AbstractFactoryController> logger, IProductService productService)
         {
             _logger = logger;
             _productService = productService;

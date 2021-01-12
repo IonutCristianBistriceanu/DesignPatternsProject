@@ -10,17 +10,17 @@ namespace DesignPatters.Proj.Examples.AbstractFactory.Factories
         private readonly string _productFamily = ProductFamily.ArtDeco.ToString();
         public IChair CreateChair()
         {
-            return new ArtDecoChair(_productFamily, ProductUtils.GetProductName(Product.Chair));
+            return new ArtDecoChair(_productFamily, ProductUtils.GetProductName(Product.Chair), 100);
         }
 
         public ISofa CreateSofa()
         {
-            return new ArtDecoSofa(_productFamily, ProductUtils.GetProductName(Product.Sofa));
+            return new ArtDecoSofa(_productFamily, ProductUtils.GetProductName(Product.Sofa), 100);
         }
 
         public ITable CreateTable()
         {
-            return new ArtDecoTable(_productFamily,ProductUtils.GetProductName(Product.Table));
+            return new ArtDecoTable(_productFamily,ProductUtils.GetProductName(Product.Table), 100);
         }
     }
 }

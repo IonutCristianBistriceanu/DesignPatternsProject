@@ -11,17 +11,17 @@ namespace DesignPatters.Proj.Examples.AbstractFactory.Factories
 
         public IChair CreateChair()
         {
-            return new VictorianChair(_productFamily, ProductUtils.GetProductName(Product.Chair));
+            return new VictorianChair(_productFamily, ProductUtils.GetProductName(Product.Chair), 100);
         }
 
         public ISofa CreateSofa()
         {
-            return new VictorianSofa(_productFamily, ProductUtils.GetProductName(Product.Sofa));
+            return new VictorianSofa(_productFamily, ProductUtils.GetProductName(Product.Sofa), 100);
         }
 
         public ITable CreateTable()
         {
-            return new VictorianTable(_productFamily, ProductUtils.GetProductName(Product.Table));
+            return new VictorianTable(_productFamily, ProductUtils.GetProductName(Product.Table), 100);
         }
     }
 }

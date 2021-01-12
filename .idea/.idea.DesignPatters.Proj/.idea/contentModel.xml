@@ -9,6 +9,7 @@
         <e p="Controllers" t="Include">
           <e p="AbstractFactoryController.cs" t="Include" />
           <e p="BuilderController.cs" t="Include" />
+          <e p="CommandController.cs" t="Include" />
           <e p="FactoryMethodController.cs" t="Include" />
         </e>
         <e p="DesignPatters.Proj.csproj" t="IncludeRecursive" />
@@ -69,6 +70,14 @@
               </e>
             </e>
           </e>
+          <e p="CommandPattern" t="Include">
+            <e p="Commands" t="Include">
+              <e p="CalculateDiscountCommand.cs" t="Include" />
+              <e p="SimpleCommand.cs" t="Include" />
+            </e>
+            <e p="ICommand.cs" t="Include" />
+            <e p="Invoker.cs" t="Include" />
+          </e>
           <e p="FactoryMethod" t="Include">
             <e p="ITransport.cs" t="Include" />
             <e p="Logistics.cs" t="Include" />
@@ -99,6 +108,8 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Utils" t="Include">
+          <e p="DiscountCalculator.cs" t="Include" />
+          <e p="IDiscountCalculator.cs" t="Include" />
           <e p="ProductUtils.cs" t="Include" />
         </e>
         <e p="WeatherForecast.cs" t="Include" />
